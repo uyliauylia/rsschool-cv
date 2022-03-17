@@ -1,5 +1,4 @@
 # Yulia Smirnova
-![Foto](foto.jpg)
 
 *****
 ## Contacts
