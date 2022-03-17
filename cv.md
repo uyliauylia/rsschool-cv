@@ -1,4 +1,5 @@
 # Yulia Smirnova
+![Foto](foto.jpg)
 
 *****
 ## Contacts
@@ -36,7 +37,7 @@ https://uyliauylia.github.io/rsschool-cv/cv
 *****
 ## Courses
 * 2014 - Web Designer, NOU UTS Prioritet (offline)
-* 2021 - HTML, CSS, JavaScript, [Udemy](udemy.com)
+* 2021 - HTML, CSS, JavaScript, Udemy
 * 2022 - JavaScript/Front-end 2022Q1, RS Schools Course (in progress)
 
 *****
