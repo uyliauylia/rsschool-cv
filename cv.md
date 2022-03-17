@@ -1,5 +1,5 @@
 # Yulia Smirnova
-
+![Foto](foto.jpg)
 ***
 ## Contacts
 * Location: Togliatti, Russia
@@ -27,7 +27,8 @@ function multiply(a, b){
 }
 ```
 ***
-## Experience
+## Project
+[CV](https://uyliauylia.github.io/rsschool-cv/cv)
 ***
 ## Courses
 * 2014 - Web Designer, NOU UTS Prioritet (offline)
