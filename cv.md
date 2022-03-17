@@ -1,5 +1,4 @@
 # Yulia Smirnova
-![foto](https://user-images.githubusercontent.com/97125502/158768952-1d9f3d97-65c0-4109-a2bf-b242e0cb17d6.jpg)
 
 
 *****
