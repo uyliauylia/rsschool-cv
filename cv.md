@@ -5,7 +5,6 @@
 * Location: Togliatti, Russia
 * Email: uyliauylia@yandex.ru
 * GitHub: uyliauylia
-* Discord: Yulia Smirnova (@uyliauylia)
 * Telegram: uyliauylia
 ***
 ## About Me
