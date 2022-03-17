@@ -32,9 +32,6 @@ function multiply(a, b){
 ```
 
 *****
-## Experience
-
-*****
 ## Courses
 * 2014 - Web Designer, NOU UTS Prioritet (offline)
 * 2021 - HTML, CSS, JavaScript, Udemy
