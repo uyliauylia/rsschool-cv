@@ -1,5 +1,5 @@
 # Yulia Smirnova
-![Foto](https://github.com/uyliauylia/rsschool-cv/blob/9e9b923395321d9036004a21a12bbab872f7d79d/foto.jpg)
+![Foto](foto.jpg)
 
 *****
 ## Contacts
