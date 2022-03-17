@@ -31,8 +31,7 @@ function multiply(a, b){
 }
 ```
 *****
-## Project
-[https://uyliauylia.github.io/rsschool-cv/cv](https://uyliauylia.github.io/rsschool-cv/cv)
+## Experience
 
 *****
 ## Courses
