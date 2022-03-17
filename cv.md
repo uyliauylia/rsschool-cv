@@ -22,7 +22,7 @@ function multiply(a, b){
 }
 ```
 ## Project
-[CV](https://uyliauylia.github.io/rsschool-cv/cv)
+https://uyliauylia.github.io/rsschool-cv/cv
 ## Courses
 * 2014 - Web Designer, NOU UTS Prioritet (offline)
 * 2021 - HTML, CSS, JavaScript, [Udemy](https://www.udemy.com)
