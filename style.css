@@ -1,5 +1,69 @@
 * {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    font-size: 10px;
     box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1.4rem;
+}
+.container {
+    max-width: 102.4rem;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 3rem;
+   float: left;
+}
+hr {
+    width: 4rem;
+}
+ul {
+    list-style-type: none;
+}
+.about {
+    min-height: 50rem;
+    padding: 4rem;
+}
+.about_me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foto {
+    width: 35rem;
+}
+.foto img {
+    width: 100%;
+}
+.descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60rem;
+    margin-right: 2rem;
+}
+.profession {
+    margin-top: 1.5rem;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.title_profile {
+    margin-top: 2rem;
+}
+.text-profile {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
 }
