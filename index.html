@@ -5,8 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <ul class="menu_item">
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#project">My project</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#code">Code example</a></li>
+                    </ul>
+                </div>
+                <hr class="hr_menu">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <div class="container">
+                <div class="about_me">
+                    <div class="descr">
+                        <div class="name">
+                            <h1>Yulia Smirnova</h1> 
+                        </div>
+                        <div class="profession">Junior Front-end Developer</div>
+                        <div class="profile">
+                            <div class="title_profile">
+                                <h2 id="about">About me</h2>
+                            </div>
+                            <hr>
+                            <div class="text-profile">   
+                            I am 31 years old and I work as an internet marketing specialist (seo optimization). I love to study and discover new things.
+
+                            I am interested in the field of web development, and with the help of the RS Schools Course JavaScript / Front-end, I hope to gain the necessary competencies for employment.
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="foto">
+                        <img src="assets/img/my_foto.jpg" alt="foto">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container_info">
+        <section class="info">
+                <div class="left-block">
+                    <div class="container">
+                    <div class="education">
+                        <div class="education_title">
+                            <h2 id="education">Education</h2>
+                        </div>
+                        <hr>
+                        <div class="education_list">
+                            <ul>
+                                <li><strong>2014</strong> - Web Designer, NOU UTS Prioritet (offline)</li>
+                                <li><strong>2021</strong> - HTML, CSS, JavaScript, Udemy</li>
+                                <li><strong>2022</strong> - JavaScript/Front-end 2022Q1, RS Schools Course (in progress)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_title">
+                            <h2 id="project">My project</h2>
+                        </div>
+                        <hr>
+                        <div class="project_img">
+                            <a href="https://rolling-scopes-school.github.io/uyliauylia-JSFE2022Q1/src/pages/main/"><img src="assets/project/shelter.png" alt="project"></a>
+                        </div>
+                        <div class="project_descr">
+                            <a href="https://rolling-scopes-school.github.io/uyliauylia-JSFE2022Q1/src/pages/main/"><strong>Shelter</strong></a>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <div class="language_title">
+                           <h2 id="languages">Languages</h2> 
+                        </div>
+                        <hr>
+                        <div class="language_rus"><strong>Russian</strong> <i>Native</i></div>
+                        <div class="language_eng"><strong>English</strong> <i>Beginner</i></div>
+
+                    </div>
+                </div>
+                </div>
+                <div class="right-block">
+                    <div class="container">
+                    <div class="contacts">
+                        <div class="contacts_title">
+                            <h2 id="contacts">Contacts</h2>
+                        </div>
+                        <hr>
+                        <ul>
+                            <li><strong>Location:</strong> Togliatti, Russia</li>
+                            <li><strong>Email:</strong> uyliauylia@yandex.ru</li>
+                            <li><strong>GitHub:</strong> uyliauylia</li>
+                            <li><strong>Telegram:</strong> uyliauylia</li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_title">
+                            <h2 id="skills">Skills</h2>
+                        </div>
+                        <hr>
+                        <div class="skill">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS/SASS</li>
+                                <li>JavaScript (Basic)</li>
+                                <li>Git</li>
+                                <li>Search engine optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+        </section>
+        </div>
+    <section class="codes">
+        <div class="container">
+            <div class="code">
+                <div class="code_title">
+                    <h2 id="code">Code example</h2>
+                </div>
+                <hr>
+                <div class="code_descr">
+                    <p>KATA: Trolls are attacking your comment section! A common way to deal with this situation is to remove ll of the vowels from the trolls' comments, neutralizing the threat. Your task is to write a function that takes a string and return a new string with all vowels removed. For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".</p>
+                        <p>Note: for this kata y isn't considered a vowel.</p>
+                </div>
+                <div class="code_example">
+                    <p><span class="violet">function</span> <span class="orange">disemvowel(str)</span> {</p>
+                        <p><span class="violet">return</span> <span class="blue">str.replace</span> <span class="lime">(/[aeiouAEIOU]+/g, "");</span> </p>
+                        <p>}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer_info">
+                <div class="github">
+                    <a href="https://github.com/uyliauylia">My github</a>
+                </div>
+                <div class="rsschool">
+                    <a href="https://rs.school/js/"><img src="assets/logo/rs_school_js.svg" alt="logo"></a>
+                </div>
+                <div class="year">
+                    2022
+                </div>
+            </div>
+        </div>
+    </footer> 
 </body>
 </html>
