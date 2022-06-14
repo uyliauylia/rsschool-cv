@@ -6,6 +6,8 @@
 html {
     font-size: 10px;
     scroll-behavior: smooth;
+    color: #393838;
+
 }
 body {
     font-size: 1.4rem;
@@ -29,7 +31,17 @@ h2 {
 }
 hr {
     width: 4rem;
+    height: 0.3rem;
     margin-top: 1rem;
+    background-color: #dc143c;
+}
+.hr_menu {
+    width: 20rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    background-color: #dc143c;
+    
 }
 ul {
     list-style-type: none;
@@ -42,6 +54,14 @@ li {
 }
 a {
     text-decoration: none;
+    color: #393838;  
+}
+a:hover {
+    color: #393838;   
+}
+.menu_item {
+    display: flex;
+    justify-content: space-between;
 }
 .about {
     min-height: 40rem;

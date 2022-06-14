@@ -14,9 +14,18 @@
     <header>
         <nav>
             <div class="container">
-                <ul class="menu">
-
-                </ul>
+                <div class="menu">
+                    <ul class="menu_item">
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#project">My project</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#code">Code example</a></li>
+                    </ul>
+                </div>
+                <hr class="hr_menu">
             </div>
         </nav>
     </header>
@@ -31,7 +40,7 @@
                         <div class="profession">Junior Front-end Developer</div>
                         <div class="profile">
                             <div class="title_profile">
-                                <h2>About me</h2>
+                                <h2 id="about">About me</h2>
                             </div>
                             <hr>
                             <div class="text-profile">   
@@ -53,7 +62,7 @@
                     <div class="container">
                     <div class="education">
                         <div class="education_title">
-                            <h2>Education</h2>
+                            <h2 id="education">Education</h2>
                         </div>
                         <hr>
                         <div class="education_list">
@@ -66,7 +75,7 @@
                     </div>
                     <div class="project">
                         <div class="project_title">
-                            <h2>My project</h2>
+                            <h2 id="project">My project</h2>
                         </div>
                         <hr>
                         <div class="project_img">
@@ -78,7 +87,7 @@
                     </div>
                     <div class="languages">
                         <div class="language_title">
-                           <h2>Languages</h2> 
+                           <h2 id="languages">Languages</h2> 
                         </div>
                         <hr>
                         <div class="language_rus"><strong>Russian</strong> <i>Native</i></div>
@@ -91,7 +100,7 @@
                     <div class="container">
                     <div class="contacts">
                         <div class="contacts_title">
-                            <h2>Contacts</h2>
+                            <h2 id="contacts">Contacts</h2>
                         </div>
                         <hr>
                         <ul>
@@ -103,7 +112,7 @@
                     </div>
                     <div class="skills">
                         <div class="skills_title">
-                            <h2>Skills</h2>
+                            <h2 id="skills">Skills</h2>
                         </div>
                         <hr>
                         <div class="skill">
@@ -118,14 +127,14 @@
                     </div>
                     </div>
                 </div>
-            </div>
+
         </section>
-    </div>
+        </div>
     <section class="codes">
         <div class="container">
             <div class="code">
                 <div class="code_title">
-                    <h2>Code example</h2>
+                    <h2 id="code">Code example</h2>
                 </div>
                 <hr>
                 <div class="code_descr">
@@ -134,7 +143,7 @@
                 </div>
                 <div class="code_example">
                     <p><span class="violet">function</span> <span class="orange">disemvowel(str)</span> {</p>
-                        <p><span class="violet">return</span> <span class="blue">str.replace</span><span class="lime">(/[aeiouAEIOU]+/g, "");</p></span>
+                        <p><span class="violet">return</span> <span class="blue">str.replace</span> <span class="lime">(/[aeiouAEIOU]+/g, "");</span> </p>
                         <p>}</p>
                 </div>
             </div>
