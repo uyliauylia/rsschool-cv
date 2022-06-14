@@ -204,3 +204,15 @@ span.blue {
 span.lime {
     color: rgb(181, 189, 104);
 }
+.footer_info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+.rsschool {
+    width: 8rem;
+}
+.rsschool img {
+    width: 100%;
+}
